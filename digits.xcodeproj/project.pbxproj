@@ -12,6 +12,8 @@
 		88E300D91F00346000ADB001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E300D71F00346000ADB001 /* Main.storyboard */; };
 		88E300DB1F00346000ADB001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E300DA1F00346000ADB001 /* Assets.xcassets */; };
 		88E300DE1F00346000ADB001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E300DC1F00346000ADB001 /* LaunchScreen.storyboard */; };
+		88E300E61F0034A600ADB001 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 88E300E51F0034A600ADB001 /* MNISTClassifier.mlmodel */; };
+		88E300E81F0034DB00ADB001 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E300E71F0034DB00ADB001 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		88E300DA1F00346000ADB001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E300DD1F00346000ADB001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E300DF1F00346000ADB001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E300E51F0034A600ADB001 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MNISTClassifier.mlmodel; path = "../../../../../Downloads/ImageClassificationwithVisionandCoreML/Vision+ML Example/MNISTClassifier.mlmodel"; sourceTree = "<group>"; };
+		88E300E71F0034DB00ADB001 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				88E300DA1F00346000ADB001 /* Assets.xcassets */,
 				88E300DC1F00346000ADB001 /* LaunchScreen.storyboard */,
 				88E300DF1F00346000ADB001 /* Info.plist */,
+				88E300E51F0034A600ADB001 /* MNISTClassifier.mlmodel */,
+				88E300E71F0034DB00ADB001 /* DrawingView.swift */,
 			);
 			path = digits;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				88E300D61F00346000ADB001 /* ViewController.swift in Sources */,
 				88E300D41F00346000ADB001 /* AppDelegate.swift in Sources */,
+				88E300E61F0034A600ADB001 /* MNISTClassifier.mlmodel in Sources */,
+				88E300E81F0034DB00ADB001 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
